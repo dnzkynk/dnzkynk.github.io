@@ -23,25 +23,37 @@ html {
   color: #fff;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
-  padding: 0.75rem;
+  height: 80px;
+  padding: 1rem;
   background-color: #062e51;
   z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#navbar .heading-small {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#navbar ul li a {
+  padding: 0.5rem 1.5rem;
+  font-size: 1.1rem;
+}
+
+#navbar ul li a:hover {
+  background-color: #336ae2;
+  border-radius: 4px;
 }
 
 #navbar ul {
   list-style: none;
   display: flex;
   align-items: center;
+  margin-right: 1rem;
 }
 
-#navbar ul li a {
-  padding: 0.75rem;
-}
-
-#navbar ul li a:hover {
-  background-color: #336ae2;
-  border-radius: 4px;
+#navbar ul li:not(:last-child) {
+  margin-right: 1rem;
 }
 
 /*Home Section*/
