@@ -1,0 +1,55 @@
+/* mobile.css */
+
+/* Navbar */
+#navbar {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  height: auto;
+  flex-direction: column;
+}
+
+#navbar ul {
+  flex-direction: column;
+  background-color: rgba(6, 46, 81, 0.9);
+  position: fixed;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  padding: 1rem;
+  z-index: 999;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+#navbar.show {
+  transform: translateX(0);
+}
+
+#navbar ul li {
+  margin-bottom: 1rem;
+}
+/* Home Section */
+#home img {
+  width: 120px;
+  height: 120px;
+}
+
+/* Training Section */
+#training .items .item {
+  width: 90%;
+  margin-bottom: 1.5rem;
+}
+
+/* Contact Section */
+.contact-content {
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-info,
+.github-repo {
+  margin-right: 0;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
