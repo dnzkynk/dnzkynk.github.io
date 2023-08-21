@@ -70,6 +70,43 @@ html {
 #social-links {
   margin-top: 30px;
 }
+/* Örnek stiller */
+
+.video-section {
+  position: relative;
+  width: 100%; /* Video genişliği */
+  height: 500px; /* Video yüksekliği */
+  overflow: hidden;
+}
+
+#bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.content-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  z-index: 1;
+}
 
 /* Training */
 
