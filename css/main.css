@@ -25,8 +25,8 @@ html {
   align-items: center;
   height: 70px;
   padding: 0.75rem;
-  background-color: #062e51; /* Navbar'ın her zaman görünmesi için arkaplan rengi belirlendi */
-  z-index: 1000; /* Navbar'ın içeriğin üzerinde kalması için z-index ayarı */
+  background-color: #062e51;
+  z-index: 1000;
 }
 
 #navbar ul {
@@ -53,7 +53,7 @@ html {
   justify-content: center;
   padding: 2rem;
   border-bottom: 1px solid grey;
-  margin-top: 70px; /* Navbar yüksekliği kadar boşluk bırakılıyor */
+  margin-top: 70px;
 }
 
 #home img {
@@ -182,7 +182,7 @@ html {
 
 .github-repo {
   padding: 2rem;
-  text-align: center; /* Sağ tarafa hizalama */
+  text-align: center;
 }
 
 .github-repo h3 {
@@ -196,7 +196,7 @@ html {
 }
 
 .github-repo a {
-  display: inline-block; /* Gerekirse stilin düzgün uygulanması için */
+  display: inline-block;
   margin-top: 1rem;
   color: #fff;
   text-decoration: none;
